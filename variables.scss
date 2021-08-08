@@ -1,0 +1,65 @@
+body{
+    background-color: #193549;
+    display: grid;
+    align-items: center;
+    justify-items:center ;
+    .col{
+        width: 80%;
+        height: auto;
+        display: grid;
+        align-items: center;
+        justify-items:center;
+        h1{
+            font-size: 50px;
+            color: white;
+        }
+        section{
+            color: white;
+            height: 30%;
+            font-size: 40px;
+        }
+        .picture{
+            width: 800px;
+            height: 500px;
+            margin-top: 30px;
+            background-image: url("./berries-6514669_1920.jpg");
+            background-size: cover;
+        }
+    }
+}
+.filter1{
+filter: blur(0);
+}
+.filter2{
+    filter: blur(2px);
+}
+.filter3{
+    filter: blur(5px);
+}
+.filter4{
+    filter: blur(7px);
+}
+.filter5{
+    filter: blur(10px);
+}
+.space0{
+    border: 10px solid rgb(243, 192, 99);
+}
+.space1{
+    border: 15px solid rgb(243, 192, 99);
+}
+.space2{
+    border: 20px solid rgb(243, 192, 99);
+}
+.space3{
+    border: 25px solid rgb(243, 192, 99);
+}
+.space4{
+    border: 30px solid rgb(243, 192, 99);
+}
+.space5{
+    border: 40px solid rgb(243, 192, 99);
+}
+// .border{
+//     border-color: $colorValue;
+// }
